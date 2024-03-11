@@ -7,14 +7,14 @@ import java.util.stream.Collectors;
 public class filter_Collection {
     public static void main(String[] args) {
 //        salaryFilter();
-        List<user> list2 = DummyData();
-        List<user> increlist = list2.stream().map(sal->{
-            sal.getSalary()=sal.setSalary(500000);
-
-            return sal;}
-        ).collect(Collectors.toList());
-        List<user> plist = increlist.stream().filter(sal-> sal.getSalary()>=210000).collect(Collectors.toList());
-        plist.stream().forEach(sal->System.out.println(sal.getName()));
+//        List<user> list2 = DummyData();
+//        List<user> increlist = list2.stream().map(sal->{
+//            sal.getSalary()=sal.setSalary(500000);
+//
+//            return sal;}
+//        ).collect(Collectors.toList());
+//        List<user> plist = increlist.stream().filter(sal-> sal.getSalary()>=210000).collect(Collectors.toList());
+//        plist.stream().forEach(sal->System.out.println(sal.getName()));
 
 
     }
